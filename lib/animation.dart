@@ -12,7 +12,7 @@ class animation extends StatefulWidget {
 class _animationState extends State<animation> {
   // Lottie.asset('assets/news.json')
 
-  //B'raz bekle
+ 
   @override
   void initState() {
     print('test');
@@ -27,7 +27,6 @@ class _animationState extends State<animation> {
       timer.cancel();
     }
     );
-    //Destek ve Önerileriniz için ... 'na feedback yollayın
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
